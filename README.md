@@ -1,4 +1,4 @@
-# The-Odin-Project-Admin-Dashboard
+# The Odin Project: Admin-Dashboard
 
 This project involves creating a simple admin dashboard using HTML and CSS, focusing on grid layout. Follow the steps below to build your dashboard.
 
