@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.main{
+    background-color: white;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #1d4ed8;
+    height: 100vh;
+}
