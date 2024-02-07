@@ -9,8 +9,8 @@ body{
     font-family: Roboto, sans-serif;
 }
 svg{
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     path {
         fill: white;
     }
@@ -35,10 +35,10 @@ svg{
 .logo-text{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-size: 1rem;
-    margin: 20px 0 ;
+    margin: 40px 40px;
 }
 
 .icon-text{
@@ -53,4 +53,9 @@ svg{
 .icon-text p{
     margin-left: 10px;
     font-size: 14px;
+    font-weight: 800;
+}
+
+.list-text-bottom{
+    margin-top: 50px;
 }
