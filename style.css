@@ -9,11 +9,16 @@ body{
     font-family: Roboto, sans-serif;
 }
 svg{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     path {
         fill: white;
     }
+}
+
+#logo{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .grid{
@@ -41,6 +46,11 @@ svg{
     margin: 40px 40px;
 }
 
+.logo-text h1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
 .icon-text{
     display: flex;
     flex-direction: row;
@@ -51,7 +61,7 @@ svg{
 }
 
 .icon-text p{
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 14px;
     font-weight: 800;
 }
