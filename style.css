@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: Roboto, sans-serif;
+}
 svg{
     width: 2rem;
     height: 2rem;
@@ -34,4 +39,18 @@ svg{
     align-items: center;
     font-size: 1rem;
     margin: 20px 0 ;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    margin: 10px 40px ;
+}
+
+.icon-text p{
+    margin-left: 10px;
+    font-size: 14px;
 }
