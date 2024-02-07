@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+svg{
+    width: 2rem;
+    height: 2rem;
+    path {
+        fill: white;
+    }
+}
+
 .grid{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -14,6 +22,16 @@
 }
 
 .sidebar{
-    background-color: #1d4ed8;
+    background-color: #0ea5e9;
     height: 100vh;
+    color: white;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 20px 0 ;
 }
