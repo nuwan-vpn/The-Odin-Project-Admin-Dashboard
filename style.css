@@ -85,18 +85,20 @@ svg{
     background-color: white;
     display: flex;
     flex-direction: column;
+    color: black;
    
 }
 
-.navbar{
+.navbar, .left{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    margin: 0px 80px;
 }
 
 .searchbar{
-    width: 500px;
+    width:500px;
     background-color: #d4d4d4;
     border: 1px solid #d4d4d4;
     border-radius: 10px;
@@ -104,11 +106,41 @@ svg{
     margin-right: 100px;
 }
 
-.profile{
+.profile-one{
     margin: 10px 20px;
+}
+
+.profile-two{
+    margin: 0px 20px;
 }
 
 .content{
     background-color: #d4d4d4;
 }
 
+.welcome-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 40%;
+}
+
+.btn{
+    background-color: #0ea5e9;
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+}
