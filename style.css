@@ -8,6 +8,7 @@
 body{
     font-family: Roboto, sans-serif;
 }
+
 svg{
     width: 1rem;
     height: 1rem;
@@ -24,11 +25,6 @@ svg{
 .grid{
     display: grid;
     grid-template-columns: 20% 80%;
-}
-
-.main{
-    background-color: white;
-    height: 100vh;
 }
 
 .sidebar{
@@ -69,3 +65,50 @@ svg{
 .list-text-bottom{
     margin-top: 50px;
 }
+
+#icon-search, #icon-bell{
+    width: 1rem;
+    height: 1rem;
+    path {
+        fill: black;
+    }
+}
+
+.main{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar{
+    width: 500px;
+    background-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.profile{
+    margin: 10px 20px;
+}
+
+.content{
+    background-color: #d4d4d4;
+}
+
