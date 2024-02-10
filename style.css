@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 
 body{
@@ -25,11 +27,12 @@ svg{
 .grid{
     display: grid;
     grid-template-columns: 20% 80%;
+    height: 100%;
 }
 
 .sidebar{
     background-color: #0ea5e9;
-    height: 100vh;
+    height: 100%;
     color: white;
 }
 
@@ -78,7 +81,7 @@ svg{
     background-color: white;
     height: 100vh;
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 17% 87%;
 }
 
 .header{
@@ -92,7 +95,6 @@ svg{
 .navbar, .left{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
     margin: 0px 80px;
 }
@@ -114,16 +116,12 @@ svg{
     margin: 0px 20px;
 }
 
-.content{
-    background-color: #d4d4d4;
-}
-
 .welcome-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .right{
@@ -143,4 +141,61 @@ svg{
     border-radius: 20px;
     color: white;
     font-weight: 800;
+}
+
+.content{
+    background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.project-summary{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.project{
+    background-color: white;
+    border-left: 5px solid #facc15;
+    border-radius: 10px;
+    width: 300px;
+    height: 145px;
+    margin: 15px 0px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
+
+
+}
+
+.icons{
+    height: 1rem;
+    path {
+        fill: black;
+    }
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    margin-left: 10px;
+}
+
+h6{
+    font-size: 18px;  
+
+}
+
+.project p{
+    font-size: 14px;
+    color: #737373;
+    margin: 5px 0px;
+}
+
+h4{
+    margin-left: 20px;
+    margin-top: 25px;
 }
