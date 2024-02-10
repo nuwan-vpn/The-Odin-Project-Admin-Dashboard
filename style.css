@@ -185,7 +185,7 @@ svg{
 }
 
 h6{
-    font-size: 18px;  
+    font-size: 15px;  
 
 }
 
@@ -199,3 +199,9 @@ h4{
     margin-left: 20px;
     margin-top: 25px;
 }
+
+.announcements-trends{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
