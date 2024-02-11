@@ -205,3 +205,10 @@ h4{
     grid-template-rows: 50% 50%;
 }
 
+.announcements, .trend{
+    height: 80%;
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    
+}
