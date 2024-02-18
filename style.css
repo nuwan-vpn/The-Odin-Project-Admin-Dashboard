@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-
+    box-sizing: border-box;
+    
 }
 
 body{
@@ -26,8 +27,9 @@ svg{
 
 .grid{
     display: grid;
-    grid-template-columns: 20% 80%;
-    height: 100%;
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: auto;
+    height: auto;   
 }
 
 .sidebar{
@@ -79,17 +81,15 @@ svg{
 
 .main{
     background-color: white;
-    height: 100vh;
     display: grid;
-    grid-template-rows: 17% 87%;
+    grid-template-rows: 1fr 5fr;   
 }
 
 .header{
     background-color: white;
     display: flex;
     flex-direction: column;
-    color: black;
-   
+    color: black;  
 }
 
 .navbar, .left{
